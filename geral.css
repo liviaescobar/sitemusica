@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+header{
+    font-family: 'Kanit', sans-serif;;
+    font-size: 20px ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(210, 161, 255);
+    height: 70px;
+    justify-content: space-between;
+    padding: 0 20%;
+    color: white;
+}
+
+.logo{
+    width:225px;
+}
+
+.navegacao_header{
+    gap: 16px;
+}
+
+.navegacao_header a{
+    text-decoration: none;
+    color: rgb(141, 56, 220);
+    transition: 1s;
+    font-weight: bold;
+    padding: 15px;
+}
+    
+
+main{
+    background-image: linear-gradient(45deg, rgb(179, 38, 240),rgb(183, 137, 226));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+    gap: 2px;
+    padding: 8px;
+}
+
+
+.musica{
+    width: 20vw;
+    height: 70vh;
+    border-radius: 15px;
+    filter: drop-shadow(1vh 1vh 1vh black);
+    
+}
+.playlist{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.musica:hover{
+    transform: scale(1.05)
+}
+
+

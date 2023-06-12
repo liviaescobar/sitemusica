@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+
+*{
+    text-decoration: none;
+}
+
+
+body{
+    font-family: 'Kanit', sans-serif;;
+    font-size: 15px;
+    background-image: linear-gradient(45deg, rgb(179, 38, 240),rgb(183, 137, 226));
+}
+
+h1{
+    padding: 15px;
+    text-align: center;
+}
+
+.login{
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 15px 50px ;
+    border-radius: 15px;
+    color: rgb(204, 135, 238);
+}
+
+input{
+    padding: 10px; 
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 10px;
+    font-family: 'Kanit', sans-serif;;
+    color: dimgray;
+}
+
+button{
+    background-color: rgb(204, 135, 238);
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+}
+
+button:hover{
+    background-color:purple;
+    cursor: pointer;
+}
+
+h5{
+    color:  rgb(204, 135, 238);
+}
